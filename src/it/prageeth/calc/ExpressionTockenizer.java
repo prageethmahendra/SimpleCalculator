@@ -11,7 +11,7 @@ import java.util.StringTokenizer;
 public class ExpressionTockenizer {
 
     private static final String whiteSpaceCharacters = " \n\t\f\r";
-    private static final String operatorTokenizerString = " */+-()";
+    private static final String operatorTokenizerString = "\t\r\n\t */+-()";
     private static final String operandTokenizerString = "1234567890.abcdefghijklmnopqustuvwxyz,ABCDEFGHIJKLPMOPQURSTUVWXYZ_";
     private static final String decimalRegExpression = "-?\\d+(\\.\\d+)?";
     private static final String operators = "()*/+-";

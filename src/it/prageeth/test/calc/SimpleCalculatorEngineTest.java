@@ -32,6 +32,7 @@ public class SimpleCalculatorEngineTest {
         expressionResultMap.put("10/10*10/10/10", 0.1);
         expressionResultMap.put("( 1 + 3) + 4 + Gauss(5,1,0,1) + 10 * 100 / 100", 26.243606353500642);
         expressionResultMap.put("(2) * 10 * 100 / 100", 20.0);
+        expressionResultMap.put("(2) *\t 10 \n* 100\r / 100", 20.0);
     }
 
     @Test
